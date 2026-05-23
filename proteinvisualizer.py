@@ -13,7 +13,7 @@ COLOR_MODES = [
     "atom_name",
 ]
 
-# Functions
+# Main function stuff
 def load_pdb(path: str) -> PandasPdb:
     if not os.path.isfile(path):
         sys.exit(f"[ERROR] File not found: {path}")
